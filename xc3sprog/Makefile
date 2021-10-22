@@ -22,7 +22,7 @@ define Package/xc3sprog
 	SECTION:=utils
 	CATEGORY:=Utilities
 	TITLE:=xc3sporg
-	DEPENDS:=+libusb-compat +libftdi +libstdcpp
+	DEPENDS:=+libusb-compat +libftdi1 +libstdcpp
 endef
 
 define Package/xc3sprog/description
