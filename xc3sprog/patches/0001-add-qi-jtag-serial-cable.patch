@@ -1,0 +1,13 @@
+diff --git a/cablelist.txt b/cablelist.txt
+index 0c85f26..dc3b7f2 100644
+--- a/cablelist.txt
++++ b/cablelist.txt
+@@ -7,6 +7,8 @@
+ # Max_Freq == 0 mean use maximum speed of device
+ # Use 1500000 for all cable connected cables and max for all on board cables
+ 
++qi            ftdi    1500000 0x20b7:0x0713:
++qijtag        ftdi    1500000 0x20b7:0x0713:FTDIJTAG:1:0x00:0x10:0x00:0x00
+ ftdi          ftdi    1500000 0x0403:0x6010:
+ papilio       ftdi    6000000 0x0403:0x6010:
+ minila        ftdi     800000 0x0403:0x6010:

@@ -1,0 +1,13 @@
+diff --git a/ioftdi.cpp b/ioftdi.cpp
+index e079644..ed21a52 100644
+--- a/ioftdi.cpp
++++ b/ioftdi.cpp
+@@ -29,8 +29,6 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA */
+ #include "io_exception.h"
+ #include "utilities.h"
+ 
+-using namespace std;
+-
+ IOFtdi::IOFtdi(bool u)
+   : IOBase(), bptr(0), calls_rd(0), calls_wr(0), retries(0)
+ {
